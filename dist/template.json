@@ -244,7 +244,8 @@
       },
       "armor": {
         "label": "MONSTER.ARMOR",
-        "value": 0
+        "value": 0,
+        "description": ""
       }
     },
     "stronghold": {
@@ -262,16 +263,24 @@
       "talent",
       "criticalInjury",
       "spell",
-      "monsterTalent",
       "monsterAttack",
       "building",
       "hireling"
     ],
     "templates": {
+      "artifact" : {
+        "isArtifact": 0,
+        "artifactBonus": "",
+        "legend": "",
+        "appearance": "",
+        "location": "",
+        "effects": "",
+        "drawbacks": ""
+      },
       "bonus": {
         "bonus": {
-          "value": 1,
-          "max": 1
+          "value": 0,
+          "max": 0
         }
       },
       "craftable": {
@@ -285,24 +294,19 @@
       }
     },
     "weapon": {
-      "templates": ["bonus", "craftable", "rollModifiers"],
+      "templates": ["artifact", "bonus", "craftable", "rollModifiers"],
       "category": "melee",
-      "artifactBonus": "",
       "skillBonus": "",
       "damage": 1,
       "features": "",
       "grip": "1h",
       "range": "arm",
-      "drawback": "",
-      "description": "",
-      "appearance": "",
       "cost": "",
       "supply": "",
-      "weight": "regular",
-      "effect": ""
+      "weight": "regular"
     },
     "armor": {
-      "templates": ["bonus", "craftable", "rollModifiers"],
+      "templates": ["artifact", "bonus", "craftable", "rollModifiers"],
       "cost": 0,
       "part": "body",
       "features": "",
@@ -319,7 +323,7 @@
     },
     "talent": {
       "templates": ["rollModifiers"],
-      "rank": 1,
+      "rank": "-",
       "description": ""
     },
     "criticalInjury": {
@@ -330,7 +334,7 @@
       "healingTime": ""
     },
     "gear": {
-      "templates": ["bonus", "craftable", "rollModifiers"],
+      "templates": ["artifact", "bonus", "craftable", "rollModifiers"],
       "cost": "",
       "supply": "",
       "weight": "regular",
@@ -340,9 +344,6 @@
       "templates": ["bonus", "craftable"],
       "cost": "",
       "shelfLife": ""
-    },
-    "monsterTalent": {
-      "description": ""
     },
     "monsterAttack": {
       "description": "",

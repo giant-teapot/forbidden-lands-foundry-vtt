@@ -2,32 +2,18 @@
   "name": "forbidden-lands",
   "title": "Forbidden Lands",
   "description": "There is something beyond the mountains, beyond the howls beyond the mist, there is something behind the veils, behind hearts cold as stone.",
-  "version": "4.0.0",
+  "version": "4.2.0",
   "minimumCoreVersion": "0.7.5",
   "compatibleCoreVersion": "0.7.9",
   "templateVersion": 2,
-  "author": "perfectro, romelwell",
+  "author": "perfectro, patrys, romelwell, aMediocreDad",
   "scripts": [],
   "esmodules": [
     "script/init.js"
   ],
   "styles": [
-    "style/common.css",
-    "style/character.css",
-    "style/monster.css",
-    "style/stronghold.css",
-    "style/item.css",
-    "style/dialog.css",
-    "style/tab/main.css",
-    "style/tab/combat.css",
-    "style/tab/monster-combat.css",
-    "style/tab/monster-gear.css",
-    "style/tab/stronghold-gear.css",
-    "style/tab/stronghold-building.css",
-    "style/tab/stronghold-hireling.css",
-    "style/tab/talent.css",
-    "style/tab/gear.css",
-    "style/tab/bio.css"
+    "styles/layout.css",
+    "styles/style.css"
   ],
   "packs": [],
   "languages": [
@@ -64,11 +50,12 @@
   ],
   "gridDistance": 1,
   "gridUnits": "m",
-  "primaryTokenAttribute": null,
-  "secondaryTokenAttribute": null,
+  "initiative": "1d10",
+  "primaryTokenAttribute": "strength",
+  "secondaryTokenAttribute": "willpower",
   "url": "https://github.com/fvtt-fria-ligan/forbidden-lands-foundry-vtt",
   "socket": true,
-  "manifest": "https://github.com/fvtt-fria-ligan/forbidden-lands-foundry-vtt/releases/latest/download/system.json",
-  "download": "https://github.com/fvtt-fria-ligan/forbidden-lands-foundry-vtt/releases/latest/download/4.0.0.zip?raw=true",
+  "manifest": "https://github.com/fvtt-fria-ligan/forbidden-lands-foundry-vtt/releases/4.2.0/download/system.json",
+  "download": "https://github.com/fvtt-fria-ligan/forbidden-lands-foundry-vtt/releases/4.2.0/download/fbl_4.2.0.zip?raw=true",
   "license": "LICENSE.txt"
 }

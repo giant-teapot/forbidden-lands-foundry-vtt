@@ -69,3 +69,14 @@ export class ArtifactD12 extends Die {
     return `<img src="systems/forbidden-lands/chat/dice/artifact-d12-${result}.png" alt="${result}" title="${result}" />`;
   }
 }
+
+// Export Hooks to Config
+export function registerDice() {
+  CONFIG.Dice.terms.b = BaseDie;
+  CONFIG.Dice.terms.g = GearDie;
+  CONFIG.Dice.terms.s = SkillDie;
+  CONFIG.Dice.terms["6"] = ForbiddenLandsD6;
+  CONFIG.Dice.terms["8"] = ArtifactD8;
+  CONFIG.Dice.terms["10"] = ArtifactD10;
+  CONFIG.Dice.terms["12"] = ArtifactD12;
+}

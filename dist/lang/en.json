@@ -124,7 +124,7 @@
 
   "WEIGHT.TINY": "Tiny",
   "WEIGHT.LIGHT": "Light",
-  "WEIGHT.REGULAR": "Regular",
+  "WEIGHT.REGULAR": "Normal",
   "WEIGHT.HEAVY": "Heavy",
 
   "SPELL.NAME": "Name",
@@ -196,7 +196,7 @@
   "HIRELING.SALARY": "Salary",
   "HIRELING.DESCRIPTION": "Description",
   "HIRELING.SUPPLY": "Supply",
-  
+
   "ATTACK.BLUNT": "Blunt",
   "ATTACK.FEAR": "Fear",
   "ATTACK.SLASH": "Slash",

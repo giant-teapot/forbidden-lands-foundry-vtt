@@ -1,4 +1,4 @@
-import { ForbiddenLandsActor, ForbiddenLandsItem } from "./actor/forbidden-lands.js";
+import { ForbiddenLandsActor, ForbiddenLandsItem } from ".module/actor/forbidden-lands.js";
 import { initializeCalendar } from "./hooks/calendar-weather.js";
 import { registerDice } from "./hooks/dice.js";
 import { registerDiceSoNice } from "./hooks/dice-so-nice.js";

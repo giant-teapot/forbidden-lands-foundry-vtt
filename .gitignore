@@ -1,2 +1,5 @@
 
 workspace.code-workspace
+DS_STORE
+.prettier*
+node_modules
